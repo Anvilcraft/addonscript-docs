@@ -10,11 +10,13 @@ Welcome to Addonscript's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   objects/addonscript
+   objects/meta
+   objects/file
+   objects/relation
+   objects/version
+   objects/repo
+   installers
+   options
+   misc
 
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
