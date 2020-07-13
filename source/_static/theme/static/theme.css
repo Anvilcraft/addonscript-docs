@@ -1,18 +1,19 @@
 @import "classic.css";
 
+:root {
+    --background: #333333;
+}
+
 div.related {
     background-color: #aa3333;
 }
 
-div.document html {
-    background-color: #333333;
+div.document {
+    background-color: var(--background);
 }
 
 th, dl.field-list > dt {
     background-color: #eca2a2;
-}
-
-dl.field-list > dt {
     text-align: right;
 }
 
@@ -21,5 +22,14 @@ div.body {
 }
 
 html {
-    background-color: #333333;
+    background-color: var(--background);
+}
+
+a {
+    color: #aa3333;
+}
+
+a:visited {
+    color: #ffac2e;
+    text-decoration: none;
 }
