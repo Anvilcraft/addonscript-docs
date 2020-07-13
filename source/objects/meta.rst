@@ -15,7 +15,7 @@ Example Meta object
         "icon": "http://example.com/icon.png",
         "contributors": [{}],
         "website": "http://example.com",
-        "description": ["http://exampler.com/description.html", "This is the first line of the description", "This is the second line"]
+        "description": ["http://example.com/description.html", "This is the first line of the description", "This is the second line"]
     }
 
 Meta object members

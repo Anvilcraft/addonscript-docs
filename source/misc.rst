@@ -3,11 +3,13 @@
 
 Version Range
 =============
+//TODO redesign this concept
 
 A version range defines a collection of versions.
 
 Examples
 ########
+
 :[1;3]: All versions from versionid 1 to versionid 3 are included.
 :]6]: All versions, that are older than versionid 6 including versionid 6 are included.
 :[6[: All versions, that are newer than versionid 6 including versionid 6 are included.
@@ -18,6 +20,7 @@ Examples
 
 Context
 =======
+//TODO redesign this concept
 
 A context defines, when an external Addonscript file should be used.
 

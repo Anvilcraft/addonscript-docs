@@ -13,7 +13,7 @@ Example Relation object
 
     {
         "id": "mod1",
-        "script": "TODO",
+        "script": "example.com/addonscript.json",
         "versions": "TODO",
         "file": {},
         "type": "mod",
