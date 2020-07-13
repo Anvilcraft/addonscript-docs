@@ -3,7 +3,7 @@
 
 Version Range
 =============
-//TODO redesign this concept
+.. TODO redesign this concept
 
 A version range defines a collection of versions.
 
@@ -20,7 +20,7 @@ Examples
 
 Context
 =======
-//TODO redesign this concept
+.. TODO redesign this concept
 
 A context defines, when an external Addonscript file should be used.
 
