@@ -18,14 +18,14 @@ Example Meta object
         "description": ["http://exampler.com/description.html", "This is the first line of the description", "This is the second line"]
     }
 
-Meta object members:
+Meta object members
 ####################
 
-- name: The name of the addon as a string.
-- icon: This is a string, which contains a link to the icon of the addon.
-- contributors: This is an array of :ref:`Contributor Objects<contrib>`. Each entry defines one contributor of the addon.
-- webiste: This is a string, which contains a link to the website of the addon.
-- description: The is an array of strings. Each entry is one line of the description or a link to an external description.
+:name: The name of the addon as a string.
+:icon: This is a string, which contains a link to the icon of the addon.
+:contributors: This is an array of :ref:`Contributor Objects<contrib>`. Each entry defines one contributor of the addon.
+:webiste: This is a string, which contains a link to the website of the addon.
+:description: The is an array of strings. Each entry is one line of the description or a link to an external description.
 
 .. _vmeta:
 
@@ -44,11 +44,11 @@ Example Version Meta object
         "changelog": ["-Added cool stuff", "-Added more cool stuff"]
     }
 
-Version Meta object members:
+Version Meta object members
 ############################
 
-- timestamp: This is a number, which is the UNIX timestamp, when this version was released/created.
-- changelog: This is an array of strings, where each member is one line of the changelog or a link to an external changelog.
+:timestamp: This is a number, which is the UNIX timestamp, when this version was released/created.
+:changelog: This is an array of strings, where each member is one line of the changelog or a link to an external changelog.
 
 .. _contrib:
 
@@ -67,8 +67,8 @@ Example Contributor object
         "roles": ["owner", "author"]
     }
 
-Contributor object members:
+Contributor object members
 ###########################
 
-- name: This is a string with the name of the contributor
-- roles: This is an array of strings where each entry is a role of the contributor in the addon.
+:name: This is a string with the name of the contributor
+:roles: This is an array of strings where each entry is a role of the contributor in the addon.

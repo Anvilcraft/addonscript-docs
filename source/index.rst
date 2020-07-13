@@ -6,17 +6,10 @@
 Welcome to Addonscript's documentation!
 =======================================
 
+Contents
+========
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
-   objects/addonscript
-   objects/meta
-   objects/file
-   objects/relation
-   objects/version
-   objects/repo
-   installers
-   options
-   misc
-
+   :glob:
+   
+   objects/*
+   *
