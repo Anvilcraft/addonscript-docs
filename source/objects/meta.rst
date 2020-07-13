@@ -19,7 +19,7 @@ Example Meta object
     }
 
 Meta object members
-####################
+###################
 
 :name: The name of the addon as a string.
 :icon: This is a string, which contains a link to the icon of the addon.
@@ -45,7 +45,7 @@ Example Version Meta object
     }
 
 Version Meta object members
-############################
+###########################
 
 :timestamp: This is a number, which is the UNIX timestamp, when this version was released/created.
 :changelog: This is an array of strings, where each member is one line of the changelog or a link to an external changelog.
@@ -68,7 +68,7 @@ Example Contributor object
     }
 
 Contributor object members
-###########################
+##########################
 
 :name: This is a string with the name of the contributor
 :roles: This is an array of strings where each entry is a role of the contributor in the addon.
