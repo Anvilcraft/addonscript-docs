@@ -1,0 +1,3 @@
+#This should make github show the rst files in project languages
+*.rst linguist-detectable=true
+*.rst linguist-language=reStructuredText
