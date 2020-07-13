@@ -1,0 +1,17 @@
+@import "classic.css";
+
+div.related {
+    background-color: #aa3333;
+}
+
+html div.document {
+    background-color: #333333;
+}
+
+th, dl.field-list > dt {
+    background-color: #eca2a2;
+}
+
+dl.field-list > dt {
+    text-align: right;
+}
