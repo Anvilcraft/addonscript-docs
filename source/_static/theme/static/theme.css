@@ -4,7 +4,7 @@ div.related {
     background-color: #aa3333;
 }
 
-html div.document {
+div.document html {
     background-color: #333333;
 }
 
@@ -14,4 +14,12 @@ th, dl.field-list > dt {
 
 dl.field-list > dt {
     text-align: right;
+}
+
+div.body {
+    max-width: 100%;
+}
+
+html {
+    background-color: #333333;
 }
