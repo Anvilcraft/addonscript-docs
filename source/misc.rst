@@ -3,18 +3,7 @@
 
 Version Range
 =============
-.. TODO redesign this concept
-
-A version range defines a collection of versions.
-
-Examples
-########
-
-:[1;3]: All versions from versionid 1 to versionid 3 are included.
-:]6]: All versions, that are older than versionid 6 including versionid 6 are included.
-:[6[: All versions, that are newer than versionid 6 including versionid 6 are included.
-:\*: All versions are included.
-
+Addonscript uses the `Apache Maven Version Range Specification <https://maven.apache.org/enforcer/enforcer-rules/versionRanges.html>`_.
 
 .. _context:
 
